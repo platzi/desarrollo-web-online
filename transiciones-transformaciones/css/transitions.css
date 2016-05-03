@@ -1,0 +1,76 @@
+/*background-color
+background-position
+background-size
+border-color
+border-width
+color
+border-radius
+font-size
+font-weight
+height width
+left right bottom top
+padding
+opacity
+*/
+body {
+  background: skyblue;
+}
+.contenedor {
+  margin: 0 auto;
+  width: 600px;
+  font-family: sans-serif;
+}
+
+.transicion {
+  transition: .3s;
+  /*transition: .3s opacity ease;*/
+/*  transition-duration: .3s;
+  transition-property: opacity;
+  transition-timing-function: ease;*/
+}
+
+.caja {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.opacity {
+  opacity: 0;
+}
+
+.opacity:hover {
+  opacity: 1;
+}
+
+.fuente:hover {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.colores:hover {
+  color: red;
+  background: yellow;
+}
+
+.rotacion:hover {
+  transform: rotate(360deg);
+}
+
+.escala:hover {
+  transform: scale(2);
+}
+
+.sesgado:hover {
+  transform: skew(45deg);
+}
+body {
+  perspective: 1000px;
+}
+.traslacion:hover {
+  transform: translateZ(50px);
+}
+
+.mixtas:hover {
+  transform: rotate(45deg) scale(2) skew(45deg) translateX(50px);
+}
